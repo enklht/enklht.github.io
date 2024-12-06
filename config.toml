@@ -16,3 +16,4 @@ theme = "linkita"
 
 [extra]
   # Put all your custom variables here
+  math = true
