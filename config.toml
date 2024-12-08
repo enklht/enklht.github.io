@@ -7,7 +7,7 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-title = "enklht's blog"
+title = "Jotted Down by enklht"
 author = "enklht"
 default_language = "ja"
 
@@ -25,8 +25,8 @@ taxonomies = [{ name = "tags" }]
   math = true
 
   [extra.profile]
-    name = "enklht's blog"
-    bio = "enklht's personal space to explore the worlds of math & tech."
+    name = "Jotted Down by enklht"
+    bio = "My personal space to explore the worlds of math & tech."
     avatar_url = "images/enklht.webp"
   [[extra.menu]]
     name = "Tags"
