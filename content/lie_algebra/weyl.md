@@ -11,6 +11,8 @@ Let $L$ be a semisimple Lie algebra, $V$ a finite dimensional linear space, $\ph
 
 ## Proof
 
+to be updated
+
 ## Reference
 
 [Introduction to Lie Algebras and Representation Theory](https://link.springer.com/book/10.1007/978-1-4612-6398-2)
