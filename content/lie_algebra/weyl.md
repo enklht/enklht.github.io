@@ -1,13 +1,16 @@
 +++
 title = "Weyl's Theorem"
+date = "2024-12-8"
+[taxonomies]
+tags = ["Lie algebra"]
 +++
 
-## 主張
+## Claim
 
-$L$をsemisimpleなLie代数、$V$を有限次元線形空間、$\phi: L \to \mathfrak{gl}(V)$をLie群の表現とする。このとき、$\phi$は完全可約である。
+Let $L$ be a semisimple Lie algebra, $V$ a finite dimensional linear space, $\phi: L \to \mathfrak{gl}(V)$ a representation. Then, $\phi$ is completely reducible.
 
-## 証明
+## Proof
 
-## 参考文献
+## Reference
 
 [Introduction to Lie Algebras and Representation Theory](https://link.springer.com/book/10.1007/978-1-4612-6398-2)

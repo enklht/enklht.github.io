@@ -13,6 +13,8 @@ default_language = "ja"
 
 theme = "kita"
 
+taxonomies = [{ name = "tags" }]
+
 [markdown]
   # Whether to do syntax highlighting
   # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -24,4 +26,14 @@ theme = "kita"
 
   [extra.profile]
     name = "enklht's blog"
-    bio = "enklht's blog is a personal space to explore the worlds of math & tech."
+    bio = "enklht's personal space to explore the worlds of math & tech."
+    avatar_url = "images/enklht.webp"
+  [[extra.menu]]
+    name = "Tags"
+    url = "$BASE_URL/tags"
+  [[extra.menu]]
+    name = "Archive"
+    url = "$BASE_URL/archive"
+  [[extra.menu]]
+    name = "About"
+    url = "$BASE_URL/about"
