@@ -7,7 +7,11 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-theme = "linkita"
+title = "enklht's blog"
+author = "enklht"
+default_language = "ja"
+
+theme = "kita"
 
 [markdown]
   # Whether to do syntax highlighting
@@ -17,3 +21,7 @@ theme = "linkita"
 [extra]
   # Put all your custom variables here
   math = true
+
+  [extra.profile]
+    name = "enklht's blog"
+    bio = "enklht's blog is a personal space to explore the worlds of math & tech."
