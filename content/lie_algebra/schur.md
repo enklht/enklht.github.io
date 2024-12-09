@@ -1,6 +1,6 @@
 +++
 title = "Schur's Lemma"
-date = "2024-12-8"
+date = 2024-12-08
 [taxonomies]
 tags = ["Lie algebra"]
 +++
