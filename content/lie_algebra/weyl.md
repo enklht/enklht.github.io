@@ -45,8 +45,7 @@ $\therefore V = W \oplus X$
 
 We can assume $\phi$ is faithful, since if not, $\phi' : L/\ker \phi \to \mathfrak{gl}(V)$ is so.
 
-Let $c := c_\phi$ be the Casimir element of $\phi$. Then $v \mapsto cv$ is an L-mod endmorphism.
-
+Let $c := c_\phi$ be the Casimir element of $\phi$. Then $v \mapsto cv$ is an L-mod endmorphism.  
 ($\because \forall x \in L, \forall v \in V, c (\phi(x).v)= \phi(x) (cv)$)
 
 - $\ker c \subset V$ is an L-submod.
@@ -67,12 +66,35 @@ i.e. $V = W \oplus \ker c$
 
 ### Case 2: General case
 
-Let $Hom(V, W)$ be the set of linear maps from $V$ to $W$. Then, $Hom(V, W)$ is an L-mod with action
+Let $\mathrm{Hom}(V, W)$ be the set of linear maps from $V$ to $W$. Then, $\mathrm{Hom}(V, W)$ is an L-mod with action
 $$(x.f)(v) := x.f(v) - f(x.v)$$
 
-Let $\mathcal{V} := \set{f \in Hom(V, W);  f|_W \text{is a scalar mult.}}$. Then, $\mathcal{V}$ is an L-mod.
+Let
 
-...To be updated...
+- $\mathcal{V} := \set{f \in \mathrm{Hom}(V, W);  f|_W \text{is a scalar mult.}}$.
+- $\mathcal{W} := \set{f \in \mathcal{V}; f|_W = 0} \subset \mathcal{V}$.
+
+Then
+
+- $\mathcal{V}, \mathcal{W}$ are L-mods. Further, $L.\mathcal{V} \subset \mathcal{W}$
+  - Let $f|_W = a 1_W \in \mathcal{V}$. Then, $\forall x \in L, \forall w \in W, (x.f)(w) = x.f(w) - f(x.w) = x.(aw) - a(x.w) = 0, \therefore x.f|_W = 0$
+- $\dim (\mathcal{V} / \mathcal{W}) = 1$
+  - $\mathcal{W} = \ker(f \space s.t. \space f|_W = a1_W \mapsto a)$, and the morphism is surjective.
+
+Applying case 1, there exists $f: V \to W$ linear, s.t.
+$$\mathcal{V} = \mathcal{W} \oplus \langle f \rangle$$
+We can choose $f$ to satisfy $f|_W = 1_W$ by scaling $f$ if needed.
+
+Since $L.\mathcal{V} \subset \mathcal{W}$, $L.f = 0$ i.e. $\forall x \in L, \forall v \in V, x.f(v) - f(x.v) = (x.f)(v) = 0.$  
+$\therefore f$ is an L-morphism.  
+$\therefore \ker f \subset V$ is an L-submod.
+
+- $\ker f \cap W = 0$
+  - $f|_W = 1_W$
+- $\dim V = \dim W + \dim \langle f \rangle$
+  - $f: V \to W$ is surjective.
+
+$\therefore V = W \oplus \ker f$
 
 ## Reference
 
