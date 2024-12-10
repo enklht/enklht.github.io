@@ -54,7 +54,7 @@ Let $c := c_\phi$ be the Casimir element of $\phi$. Then $v \mapsto cv$ is an L-
 
 - $c$ acts as a nonzero scalar on $W$
   - $W$ is irred, $c$ is the Casimir element, Shur's lemma.
-  - $\mathrm{Tr}_V(c) \neq 0, \mathrm{Tr}_{V/W}(c) = 0.$ Therefore, $\mathrm{Tr}_W (c) \neq 0.$
+  - $\mathrm{Tr}_V(c) \neq 0, \mathrm{Tr} _{V/W}(c) = 0$ Therefore, $\mathrm{Tr}_W (c) \neq 0.$
 
 Hence,
 
