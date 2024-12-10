@@ -16,23 +16,18 @@ We show every submodule $W \subset V$ has a complement, i.e. $\exists X \subset 
 
 ### Case 1: $\dim V/W = 1$
 
-The action of $L$ on $V/W \cong \mathbb{F}$ is trivial, so there is a exact sequence
-$$ 0 \to W \to V \to \mathbb{F} \to 0$$
+The action of $L$ on $V/W \cong \mathbb{F}$ is trivial.
 
 #### Case 1-a: $W$ is reducible
 
-Let $0 \neq W' \subsetneq W$ be a submodule, then $\dim((V/W') / (W/W')) = \dim(V/W) = 1$, so
-$$ 0 \to W/W' \to V/W' \to \mathbb{F} \to 0$$
-is exact.
+Let $0 \neq W' \subsetneq W$ be a submodule, then $W/W' \subset V/W'$ submod, $\dim((V/W') / (W/W')) = \dim(V/W) = 1$.
 
 Since $\dim (W/W') < \dim W$, we can use the induction hypothesis to conclude $W/W'$ has a complement, i.e.
 $\exists \tilde{W}/W' \subset V/W'$ submod, s.t. $V/W' = W/W' \oplus \tilde{W}/W'$.
 
-Further, $\dim (\tilde{W}/W) = 1$, and
-$$ 0 \to W \to \tilde{W} \to \mathbb{F} \to 0$$
-is exact.
+Further, $\dim W' < \dim W$ and $\dim (\tilde{W}/W') = 1$.
 
-Applying induction hypothesis again to get $\exists X \subset \tilde{W}$ subsp, s.t. $\tilde{W} = W' \oplus X$.
+Applying induction hypothesis again to get $\exists X \subset \tilde{W}$ submod, s.t. $\tilde{W} = W' \oplus X$.
 
 Then,
 
