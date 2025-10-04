@@ -9,7 +9,7 @@ build_search_index = false
 
 title = "Jotted Down by enklht"
 author = "enklht"
-default_language = "ja"
+default_language = "en"
 
 theme = "kita"
 

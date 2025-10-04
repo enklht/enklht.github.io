@@ -9,7 +9,7 @@ tags = ["Computer Science"]
 You may have come across this regular expression that detects prime numbers:
 
 ```perl
-^.?$ | ^(..+?)\1+$
+^.?$|^(..+?)\1+$
 ```
 
 While this pattern appears to work, there's a mathematical proof that shows why true regular expressions cannot detect prime numbers.
@@ -81,12 +81,13 @@ Here's why the language of prime numbers violate this property:
 4. By the Pumping Lemma, we can split $s$ into $xyz$ where:
     - $|xy| \leq p$
     - $|y| > 0$
-    - $xy^iz$ should be in $L$ for all $i \geq 0$
+    - $xy^iz$ should be in $L$ for all $i \geq 0$ (\*)
 5. Let $k = |y|$.
 When we pump the string:
-    - With $i = q + 1$ pumps, we get a string of length $q(1+k)$
-    - This number is composite (it's $q$ times $(1+k)$)
-    - Therefore, it can't be in our language of prime numbers
+    - With $i$ pumps, we get a string of length $q - k + ki$.
+    - Set $i := q+1$, then the length is $q - k + k (q+1) = q(k+1)$.
+    - This number is composite (it's $q$ times $(k+1)$)
+    - Therefore, it can't be in our language of prime numbers, but it contradicts (\*)
 
 This contradiction proves that prime numbers cannot form a regular language.
 
