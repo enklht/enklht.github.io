@@ -3,7 +3,7 @@ title = "Weyl's Theorem"
 date = 2024-12-08
 updated = 2024-12-10
 [taxonomies]
-tags = ["Lie algebra"]
+tags = ["Math", "Lie algebra"]
 +++
 
 ## Claim
