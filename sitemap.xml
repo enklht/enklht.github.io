@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://enklht.github.io/</loc>
+    </url>
+    <url>
+        <loc>https://enklht.github.io/about/</loc>
+    </url>
+    <url>
+        <loc>https://enklht.github.io/archive/</loc>
+    </url>
+    <url>
+        <loc>https://enklht.github.io/blog/</loc>
+    </url>
+    <url>
+        <loc>https://enklht.github.io/blog/prime-regex/</loc>
+        <lastmod>2025-10-04</lastmod>
+    </url>
+    <url>
+        <loc>https://enklht.github.io/blog/weyls-theorem/</loc>
+        <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+        <loc>https://enklht.github.io/tags/</loc>
+    </url>
+    <url>
+        <loc>https://enklht.github.io/tags/computer-science/</loc>
+    </url>
+    <url>
+        <loc>https://enklht.github.io/tags/lie-algebra/</loc>
+    </url>
+    <url>
+        <loc>https://enklht.github.io/tags/math/</loc>
+    </url>
+</urlset>
